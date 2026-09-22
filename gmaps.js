@@ -80,7 +80,7 @@ $( document ).ready(function() {
                                                } else {
                                                circles[i].setRadius(0);
                                                }
-                                               if (afstand <=200){
+                                               if (afstand <=20000){
                                                $(".coobox").html("<a href='http://maps.apple.com/?q=" + next + "'>" + next + "</a>");
                                                var datum = new Date();
                                                                                              
